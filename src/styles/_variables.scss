@@ -6,6 +6,9 @@ $theme-colors: (
   "sd-gray": $sd-gray,
   "sd-gray-light": $sd-gray-light
 );
+
+$headings-font-weight: 700;
+
 // This is for component scss to import
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";

@@ -24,6 +24,9 @@
   flex: 1;
   margin: 10px 0 0 0;
   overflow: hidden; }
+  @media (max-width: 767.98px) {
+    .SkillsSection .inner-row {
+      flex: none; } }
 
 .SkillsSection h5 {
   margin-bottom: 20px;
