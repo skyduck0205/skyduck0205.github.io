@@ -6,7 +6,7 @@
     color: #f8f9fa;
     background: #969696; }
   .TrailingSection i {
-    margin-right: 10px;
+    margin-right: 15px;
     width: 48px;
     height: 48px;
     line-height: 48px;
@@ -16,9 +16,8 @@
     background: #ffce00;
     border-radius: 100%;
     transition: all .2s ease-in-out; }
-  .TrailingSection .container {
-    max-width: 300px; }
-    .TrailingSection .container > div {
-      margin-top: 20px; }
+  .TrailingSection .container > div {
+    margin: 20px auto 0 auto;
+    max-width: 260px; }
   .TrailingSection .resume-button {
     margin-top: 30px; }
