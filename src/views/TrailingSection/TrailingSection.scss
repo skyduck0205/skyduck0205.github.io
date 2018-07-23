@@ -1,0 +1,43 @@
+@import "styles/variables";
+
+.TrailingSection {
+  padding: 60px 0;
+
+  h5 {
+    margin-bottom: 40px;
+  }
+
+  a {
+    &:hover, &:active {
+      i {
+        color: $light;
+        background: $sd-gray;
+      }
+    }
+  }
+
+  i {
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+    text-align: center;
+    color: $dark;
+    background: $primary;
+    border-radius: 100%;
+    transition: all .2s ease-in-out;
+  }
+
+  .container {
+    max-width: 300px;
+
+    & > div {
+      margin-top: 20px;
+    }
+  }
+
+  .resume-button {
+    margin-top: 30px;
+  }
+}

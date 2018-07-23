@@ -1,0 +1,47 @@
+@import "styles/variables";
+
+.App {
+  overflow: hidden;
+
+  .scroll-to-top {
+    background: $primary;
+    color: $dark;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 100%;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+
+    &:hover, &:active {
+      color: $light;
+      background: $sd-gray;
+    }
+  }
+
+  .btn-lg {
+    padding: 15px 25px;
+    border-radius: 0;
+    text-transform: uppercase;
+
+    h5 {
+      margin: 0;
+    }
+
+    &:hover, &:active {
+      color: $light;
+      background: $sd-gray;
+    }
+  }
+
+
+  a, .btn-link {
+    transition: all .2s ease-in-out;
+
+    &:hover, &:active {
+      color: $sd-gray;
+    }
+  }
+}

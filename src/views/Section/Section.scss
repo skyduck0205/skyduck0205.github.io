@@ -1,0 +1,50 @@
+@import "styles/variables";
+
+.Section {
+  padding: 60px 0;
+  overflow: hidden;
+
+  .title-container {
+    padding-bottom: 40px;
+    text-align: center;
+
+    .title {
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    i {
+      z-index: 0;
+      position: relative;
+      margin-top: 10px;
+      width: 48px;
+      height: 48px;
+      line-height: 48px;
+      font-size: 20px;
+      text-align: center;
+      color: #fff;
+      background: $sd-gray-light;
+      border-radius: 50%;
+
+      &:after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin: auto;
+        width: 570px;
+        max-width: 100vw;
+        height: 2px;
+        background: $sd-gray-light;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  p {
+    color: $sd-gray ;
+  }
+}

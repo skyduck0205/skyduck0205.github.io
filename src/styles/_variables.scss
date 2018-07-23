@@ -1,0 +1,12 @@
+$primary: #ffce00;
+$sd-gray: #969696;
+$sd-gray-light: #bababa;
+
+$theme-colors: (
+  "sd-gray": $sd-gray,
+  "sd-gray-light": $sd-gray-light
+);
+// This is for component scss to import
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";

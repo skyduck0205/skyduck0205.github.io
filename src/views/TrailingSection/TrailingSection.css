@@ -1,0 +1,24 @@
+.TrailingSection {
+  padding: 60px 0; }
+  .TrailingSection h5 {
+    margin-bottom: 40px; }
+  .TrailingSection a:hover i, .TrailingSection a:active i {
+    color: #f8f9fa;
+    background: #969696; }
+  .TrailingSection i {
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+    text-align: center;
+    color: #343a40;
+    background: #ffce00;
+    border-radius: 100%;
+    transition: all .2s ease-in-out; }
+  .TrailingSection .container {
+    max-width: 300px; }
+    .TrailingSection .container > div {
+      margin-top: 20px; }
+  .TrailingSection .resume-button {
+    margin-top: 30px; }

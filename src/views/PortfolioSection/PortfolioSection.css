@@ -1,0 +1,62 @@
+.PortfolioSection {
+  color: #f8f9fa;
+  padding-bottom: 0; }
+  .PortfolioSection .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .PortfolioSection .work-card {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden; }
+    .PortfolioSection .work-card:hover .work-card-bg {
+      filter: grayscale(100%); }
+  .PortfolioSection .work-card-bg {
+    width: 100%;
+    height: 0%;
+    padding-bottom: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    transition: all .2s ease-in-out;
+    filter: grayscale(0%); }
+    @media (max-width: 767.98px) {
+      .PortfolioSection .work-card-bg {
+        padding-bottom: 60%; } }
+  .PortfolioSection .work-card-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8); }
+    .PortfolioSection .work-card-content h5 {
+      margin-bottom: 0; }
+  .PortfolioSection .work-links {
+    min-height: 48px; }
+  .PortfolioSection .work-link {
+    margin: 0 4px; }
+    .PortfolioSection .work-link i {
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      line-height: 48px;
+      font-size: 20px;
+      color: #343a40;
+      text-align: center;
+      border-radius: 100%;
+      background: #ffce00;
+      transition: all .2s ease-in-out; }
+      .PortfolioSection .work-link i:hover, .PortfolioSection .work-link i:active {
+        color: #f8f9fa;
+        background: #969696; }
+  .PortfolioSection .badge {
+    margin: 0 4px;
+    font-weight: normal;
+    border-radius: 0; }

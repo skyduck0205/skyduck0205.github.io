@@ -1,0 +1,53 @@
+@import "styles/variables";
+$gutter: 5px;
+
+.SkillsSection {
+  .row {
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+  }
+
+  .col-md-6 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: $gutter;
+    padding-right: $gutter;
+  }
+
+  .col-md-4,
+  .col-md {
+    padding: 20px 25px;
+  }
+
+  .col-md-4 {
+    max-width: 180px;
+
+    @include media-breakpoint-down(sm) {
+      order: -1;
+      max-width: initial;
+    }
+  }
+
+  .inner-row {
+    flex: 1;
+    margin: ($gutter * 2) 0 0 0;
+    overflow: hidden;
+  }
+
+  h5 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 20px;
+    color: $sd-gray;
+  }
+
+  li + li {
+    margin-top: 10px;
+  }
+}

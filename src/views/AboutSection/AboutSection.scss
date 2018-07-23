@@ -1,0 +1,53 @@
+@import "styles/variables";
+
+.AboutSection {
+  .row {
+    margin-bottom: 40px;
+  }
+
+  .col-md {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 0;
+
+    h5 {
+      text-transform: uppercase;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    @include media-breakpoint-down(sm) {
+      text-align: center !important;
+    }
+  }
+
+  .left-col {
+    text-align: right;
+  }
+
+  .avatar-col {
+    margin: auto;
+    padding: 20px 30px;
+  }
+
+  .avatar {
+    max-width: 300px;
+    max-height: 300px;
+    border: 10px solid rgba(#ffffff, .7);
+    border-radius: 100%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .resume-button {
+    margin-top: 30px;
+  }
+}
