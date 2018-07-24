@@ -49,6 +49,15 @@
       position: fixed !important;
       top: 0;
       width: 100%;
+
+      &.active {
+        height: 360px;
+
+        .nav {
+          opacity: 1 !important;
+          pointer-events: initial !important;
+        }
+      }
     }
 
     .nav {
@@ -71,6 +80,10 @@
 
     .nav-link {
       width: 140px;
+
+      @include media-breakpoint-down(md) {
+        width: 120px;
+      }
     }
 
     .locale-items {
@@ -87,15 +100,6 @@
 
     .locale-button {
       padding: 8px;
-    }
-
-    &.active {
-      height: 360px;
-
-      .nav {
-        opacity: 1 !important;
-        pointer-events: initial !important;
-      }
     }
   }
 

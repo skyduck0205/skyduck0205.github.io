@@ -34,7 +34,12 @@
       .AppHeader nav {
         position: fixed !important;
         top: 0;
-        width: 100%; } }
+        width: 100%; }
+        .AppHeader nav.active {
+          height: 360px; }
+          .AppHeader nav.active .nav {
+            opacity: 1 !important;
+            pointer-events: initial !important; } }
     .AppHeader nav .nav {
       position: relative;
       width: 100%;
@@ -50,6 +55,9 @@
       align-items: center; }
     .AppHeader nav .nav-link {
       width: 140px; }
+      @media (max-width: 991.98px) {
+        .AppHeader nav .nav-link {
+          width: 120px; } }
     .AppHeader nav .locale-items {
       position: absolute;
       top: 0;
@@ -61,11 +69,6 @@
           position: relative; } }
     .AppHeader nav .locale-button {
       padding: 8px; }
-    .AppHeader nav.active {
-      height: 360px; }
-      .AppHeader nav.active .nav {
-        opacity: 1 !important;
-        pointer-events: initial !important; }
   .AppHeader .menu-toggler {
     z-index: 1001;
     position: fixed;

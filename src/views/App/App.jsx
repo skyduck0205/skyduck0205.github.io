@@ -18,7 +18,7 @@ class App extends Component {
 
   render() {
     return (
-      <StickyContainer className="App">
+      <StickyContainer className="App" data-aos="fade-in">
         <ScrollToTop
           showUnder={160}
           style={{ right: 15, bottom: 40, zIndex: 600 }}
