@@ -1,6 +1,7 @@
 import React from 'react';
 import { translate } from 'react-i18next';
 import Section from 'views/Section';
+import imgAvatar from 'images/avatar.png';
 import './AboutSection.css';
 
 function AboutSection({ t }) {
@@ -25,7 +26,7 @@ function AboutSection({ t }) {
           </div>
           <div className="avatar-col" data-aos="fade-in">
             <div className="avatar">
-              <img src="/images/avatar.png" alt="SkyDuck's avatar"/>
+              <img src={imgAvatar} alt="SkyDuck's avatar"/>
             </div>
           </div>
           <div className="col-md" data-aos="fade-right">

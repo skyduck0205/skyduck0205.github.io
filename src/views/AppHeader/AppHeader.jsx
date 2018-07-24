@@ -4,6 +4,9 @@ import AOS from 'aos';
 import { Sticky } from 'react-sticky';
 import scrollToElement from 'scroll-to-element';
 import i18n from 'i18n';
+import imgDuckLogo from 'images/logo/duck-typing-logo.svg';
+import imgDuckTextJp from 'images/logo/duck-typing-text-jp.svg';
+import imgDuckTextEn from 'images/logo/duck-typing-text-en.svg';
 import './AppHeader.css';
 
 class AppHeader extends Component {
@@ -65,7 +68,7 @@ class AppHeader extends Component {
               <div className="col-md-4">
                 <img
                   className="logo"
-                  src="/images/logo/duck-typing-logo.svg"
+                  src={imgDuckLogo}
                   alt="A cute duck made by AA texts"
                   data-aos="fade-up"
                   data-aos-duration="1000"
@@ -75,7 +78,7 @@ class AppHeader extends Component {
               <div className="col-md-8">
                 <img
                   className="logo-text logo-text-sm"
-                  src="/images/logo/duck-typing-text-jp.svg"
+                  src={imgDuckTextJp}
                   alt="A Japanese text of duck typing"
                   data-aos="fade-up"
                   data-aos-duration="500"
@@ -84,7 +87,7 @@ class AppHeader extends Component {
                 />
                 <img
                   className="logo-text"
-                  src="/images/logo/duck-typing-text-en.svg"
+                  src={imgDuckTextEn}
                   alt="An English text of duck typing"
                   data-aos="fade-up"
                   data-aos-duration="500"
