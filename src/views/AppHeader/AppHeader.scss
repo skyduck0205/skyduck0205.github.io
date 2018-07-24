@@ -2,12 +2,16 @@
 
 .AppHeader {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
   @include media-breakpoint-down(sm) {
     margin-top: 60px;
   }
 
   .intro {
+    flex: 1;
     display: flex;
     align-items: center;
     min-height: 400px;

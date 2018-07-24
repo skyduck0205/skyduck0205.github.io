@@ -95,7 +95,7 @@ class AppHeader extends Component {
             </div>
           </div>
         </div>
-        <Sticky topOffset={400} disableCompensation={isMobileSize}>
+        <Sticky className="sticky" topOffset={window.innerHeight} disableCompensation={isMobileSize}>
           {({ style }) => (
             <nav className={menuClass} style={isMobileSize ? {} : style}>
               <div className="container-fluid">

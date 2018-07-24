@@ -1,9 +1,13 @@
 .AppHeader {
-  position: relative; }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
   @media (max-width: 767.98px) {
     .AppHeader {
       margin-top: 60px; } }
   .AppHeader .intro {
+    flex: 1;
     display: flex;
     align-items: center;
     min-height: 400px;
