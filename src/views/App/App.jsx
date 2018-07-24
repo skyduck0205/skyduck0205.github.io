@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
+import { translate } from 'react-i18next';
 import { StickyContainer } from 'react-sticky';
 import ScrollToTop from 'react-scroll-up';
 import AppHeader from 'views/AppHeader';
@@ -13,19 +14,21 @@ import './App.css';
 
 class App extends Component {
   componentDidMount() {
+    const spinner = document.querySelector('.loading-spinner');
+    spinner.classList.add('loaded');
+    setTimeout(() => document.body.removeChild(spinner), 400);
     AOS.init({ duration: 600 });
   }
 
   render() {
     return (
-      <StickyContainer className="App" data-aos="fade-in">
+      <StickyContainer className="App">
         <ScrollToTop
           showUnder={160}
           style={{ right: 15, bottom: 40, zIndex: 600 }}
         >
           <i className="scroll-to-top fa fa-chevron-up shadow-sm" />
         </ScrollToTop>
-
         <AppHeader />
         <AboutSection />
         <SkillsSection />
@@ -38,4 +41,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default translate()(App);

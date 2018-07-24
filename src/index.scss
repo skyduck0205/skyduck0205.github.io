@@ -7,35 +7,46 @@ body {
   font-family: 'Nunito', 'Microsoft JhengHei', sans-serif;
 
 
+
   .loading-spinner {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0);
-  }
+    z-index: 2000;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #ffce00;
+    opacity: 1;
+    transition: all .4s ease-in-out;
 
-  .spinner {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    animation: spinner 2s linear infinite;
-  }
+    &.loaded {
+      opacity: 0;
+    }
 
-  .bubble-1,
-  .bubble-2 {
-    position: absolute;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    background-color: #ffce00;
-    animation: bounce 2s ease-in-out infinite;
-  }
+    .spinner {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      animation: spinner 2s linear infinite;
+    }
 
-  .bubble-2 {
-    top: auto;
-    bottom: 0;
-    animation-delay: -1.0s;
+    .bubble-1,
+    .bubble-2 {
+      position: absolute;
+      top: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: #ffffff;
+      animation: bounce 2s ease-in-out infinite;
+    }
+
+    .bubble-2 {
+      top: auto;
+      bottom: 0;
+      animation-delay: -1.0s;
+    }
   }
 }
 

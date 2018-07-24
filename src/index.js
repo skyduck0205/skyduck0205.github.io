@@ -24,7 +24,6 @@ const preloadPromise = preloadImages.map(src => new Promise(resolve => {
 
 Promise.all(preloadPromise)
   .then(() => {
-    document.body.removeChild(document.querySelector('.loading-spinner'));
     ReactDOM.render(
       <I18nextProvider i18n={i18n}>
         <App />
