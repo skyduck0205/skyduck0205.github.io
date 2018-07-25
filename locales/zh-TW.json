@@ -47,12 +47,12 @@
     "othersTaskRunners": "使用 Grunt、Gulp 建置工具的經驗",
     "othersPackageManagers": "使用 NPM、Bower 套件管理工具的經驗",
     "othersGit": "使用 Git 版本控制工具的經驗",
-    "othersWireframe": "繪製網頁應用 wireframe 的經驗",
+    "othersWireframe": "繪製 web wireframe 的經驗",
     "othersPhotoshop": "Photoshop 手繪、簡易切圖修圖"
   },
   "experience": {
     "foxconn": "鴻海科技集團",
-    "foxconnTitle": "軟體研發工程師",
+    "foxconnTitle": "軟體開發工程師",
     "foxconnExperience": "工作經歷四年半，專職網頁應用服務前後端開發、以及實作輔助工具以協助其他專案開發；在這個階段累積了一些前後端的經驗，以及和外部企業、工程師、設計師一起合作開發的經驗",
     "cga": "海岸巡防署南部地區巡防局",
     "cgaTitle": "通資作業大隊資訊兵 (義務役)",
