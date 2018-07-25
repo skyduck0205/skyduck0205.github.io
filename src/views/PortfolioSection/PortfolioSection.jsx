@@ -36,7 +36,7 @@ class PortfolioSection extends Component {
         data-index={index}
         className="work-card col-lg-3 col-md-4"
         onMouseEnter={this.onMouseEnter}
-        onClick={this.onMouseEnter}
+        onTouchStart={this.onMouseEnter}
         data-aos="fade-up-left"
         data-aos-delay={delay}
       >
