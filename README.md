@@ -1,10 +1,6 @@
 SkyDuck's RESUME.md
 ===
 
-<img src="https://raw.githubusercontent.com/skyduck0205/skyduck0205.github.io/src/src/images/avatar.png?raw=true" width="120" alt="My face" />
-<br>
-<br>
-
 有後端經驗的雜食性前端工程師，樂於交流與幫助他人節省時間，容易從自己寫的小東西中找到樂趣。時常對各式各樣的平面與網頁設計表示讚嘆，目標是除了工程師技能以外能成為富有美感與設計能力的開發者。
 
 - Page: https://skyduck0205.github.io
