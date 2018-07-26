@@ -21,15 +21,15 @@ function SkillsSection({ t }) {
               <div className="col-md">
                 <h5>{t('skills.frontEndTime')}</h5>
                 <ul>
-                  <li>{t('skills.frontEndFrameworks')}</li>
                   <li>{t('skills.frontEndTypes')}</li>
                   <li>{t('skills.frontEndApiDesign')}</li>
+                  <li>{t('skills.frontEndFrameworks')}</li>
                   <li>{t('skills.frontEndServices')}</li>
                   <li>{t('skills.frontEndLibraries')}</li>
+                  <li>{t('skills.frontEndStyles')}</li>
+                  <li>{t('skills.frontEndRwd')}</li>
                   <li>{t('skills.frontEndGa')}</li>
                   <li>{t('skills.frontEndTesting')}</li>
-                  <li>{t('skills.frontEndRwd')}</li>
-                  <li>{t('skills.frontEndStyles')}</li>
                   <li>{t('skills.frontEndStudies')}</li>
                 </ul>
               </div>
@@ -40,9 +40,9 @@ function SkillsSection({ t }) {
               <div className="col-md">
                 <h5>{t('skills.backEndTime')}</h5>
                 <ul>
-                  <li>{t('skills.backEndPython')}</li>
-                  <li>{t('skills.backEndNode')}</li>
-                  <li>{t('skills.backEndDatabase')}</li>
+                  <li>{t('skills.backEndLanguages')}</li>
+                  <li>{t('skills.backEndFrameworks')}</li>
+                  <li>{t('skills.backEndDatabases')}</li>
                 </ul>
               </div>
               <div className="col-md-4 bg-primary" data-aos="fade-left" data-aos-delay="400">
