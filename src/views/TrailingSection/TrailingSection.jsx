@@ -39,6 +39,16 @@ function TrailingSection({ t }) {
             <h5>{t('nav.resume')}</h5>
           </a>
         </div>
+        <div className="text-center mt-0" data-aos="fade-up">
+          <a
+            className="btn btn-lg btn-primary resume-button"
+            href="https://github.com/skyduck0205/skyduck0205.github.io/blob/src/RESUME_EN.md"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h5>{t('nav.resume')} (En)</h5>
+          </a>
+        </div>
       </div>
     </div>
   );
