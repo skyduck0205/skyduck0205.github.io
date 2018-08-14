@@ -51,18 +51,24 @@ Skills
 Education
 ---
 
-National Tsing Hua University - Bachelor of Computer Science (2008 - 2012)
+### National Tsing Hua University
+#### Bachelor of Computer Science (2008 - 2012)
 
 
 Experience
 ---
 
 ### Foxconn Electronics Inc.
+#### Software Engineer (Jan 2014 - Present)
 
-Software Engineer (Jan 2014 - Present)
+Responsible for developing front-end/back-end of web serivce.
 
-- Developing front-end/back-end of web services.
-- Supporting other projects with implementing widget programs.
+- Develop web front-end with Angular and React.
+- Apply and customize style libraries.
+- Design and implement RWD web page.
+- Implement i18n web page.
+- Develop back-end API server with Python Django or Node.js Express.
+- Supporting other projects with implementing widget programs such as web crawler, forum article auto-post, etc.
 
 
 Projects
