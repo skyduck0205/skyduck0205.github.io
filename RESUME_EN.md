@@ -247,8 +247,8 @@ Landing page of Pugbot, a chatbot service.
 About Me
 ---
 
-The passion of being a coder leads to a decision I made to be a software developer after my graduation from NTHU. At my first job, I were resiponsible for developing web services back-end. Besides, I studied front-end knowledge. One year later, I was dispatched to the front-end team, owing to the increment of back-end engineers and my sense of UI. I like trying plenty of new things and techniques and believe that they will become good weapons one day.
+The passion of being a coder leads to a decision I made to be a software developer after my graduation from NTHU. At my first job, I were responsible for back-end development of web services. Besides, I studied front-end knowledge. One year later, I was dispatched to the front-end team, owing to the increment of back-end engineers and my sense of UI. I like trying plenty of new things and techniques, and believe that they will turn into good weapons one day.
 
 I am able to resolve problems by reading official documents, searching answers from the internet, or tracing source code. When as a developer of a project, I do good communications with PMs, designers or other co-workers and it helps the team to reach their goal.
 
-My future plan is to keep improving myself, not only in coding, but in different area like UI/UX, learning more foreign languages, and becoming a competitive developer.
+My future plan is to keep improving myself, not only in coding, but in different areas such as UI/UX, learning more foreign languages, and becoming a competitive developer.
